@@ -52,6 +52,7 @@ npm start
 ## links
 * File uploading in Node: https://coligo.io/building-ajax-file-uploader-with-node/
 * Image uploading to Commons: https://github.com/samuelguebo/wikibot-nodejs
+* [File pond](https://github.com/pqina/jquery-filepond): a JavaScript library that can upload anything you throw at it
 
 ## Coding convention
 This project will use the [Airbnb javascript style guide](https://github.com/nmussy/javascript-style-guide)
