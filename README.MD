@@ -3,7 +3,7 @@ A tool that hepls you upload to Wikimedia Commons icons that were previously dow
 
 ## Description
 
-On The Noun Project icon page url follow a certain patter. Eg: https://thenounproject.com/icon/145926 with the digit part of the url being the unique ID of the icon. The page contains description such as author name, author url, license, etc.
+On The Noun Project icon page url follow a certain pattern. Eg: https://thenounproject.com/icon/145926 with the digit part of the url being the unique ID of the icon. The page contains description such as author name, author url, license, etc.
 
 `thenoun uploader` is a tool that helps people upload to Commons icons previously downloaded from The Noun Project. The tool should allow to upload one or many icons as needed whilst making sure the upload adds relevant information to the file on Commons. 
 
