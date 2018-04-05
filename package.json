@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/samuelguebo/thenoun-uploader/issues"
   },
-  "homepage": "https://github.com/samuelguebo/thenoun-uploader#readme"
+  "homepage": "https://github.com/samuelguebo/thenoun-uploader#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
