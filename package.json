@@ -4,6 +4,7 @@
   "description": "A tool that helps you upload to Wikimedia Commons icons that were previously downloaded from [The Noun Project](https://thenounproject.com).",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
