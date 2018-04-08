@@ -1,0 +1,21 @@
+doctype html
+html
+	head
+		title Formulaire 
+		meta(charset='utf-8')
+	body
+		form(
+			method='post' 
+			action=''
+			enctype='multipart/form-data'
+			)
+			label(for="files") Ajouter des Fichiers
+			br
+			input(
+				type='file'
+				name='fichier'
+				id='files'
+				multiple
+				)
+			br
+			input(type='submit' value='envoyer')
