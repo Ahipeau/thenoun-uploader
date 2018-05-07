@@ -1,26 +1,26 @@
 {
-  "name": "thenoun-uploader",
-  "version": "1.0.0",
-  "description": "A tool that helps you upload to Wikimedia Commons icons that were previously downloaded from [The Noun Project](https://thenounproject.com).",
-  "main": "app.js",
-  "scripts": {
-    "start": "nodemon app",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/samuelguebo/thenoun-uploader.git"
-  },
-  "author": "ahipeau",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/samuelguebo/thenoun-uploader/issues"
-  },
-  "homepage": "https://github.com/samuelguebo/thenoun-uploader#readme",
-  "dependencies": {
-    "express": "^4.16.3",
-    "mustache": "^2.3.0",
-    "nodemon": "^1.17.3",
-    "pug": "^2.0.3"
-  }
+    "name": "thenoun-uploader",
+    "version": "1.0.0",
+    "description": "A tool that helps you upload to Wikimedia Commons icons that were previously downloaded from [The Noun Project](https://thenounproject.com).",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon app",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/samuelguebo/thenoun-uploader.git"
+    },
+    "author": "ahipeau",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/samuelguebo/thenoun-uploader/issues"
+    },
+    "homepage": "https://github.com/samuelguebo/thenoun-uploader#readme",
+    "dependencies": {
+        "express": "^4.16.3",
+        "mustache": "^2.3.0",
+        "mustache-express": "^1.2.5",
+        "nodemon": "^1.17.3"
+    }
 }
