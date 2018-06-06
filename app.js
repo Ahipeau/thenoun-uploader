@@ -13,7 +13,7 @@ app.set("views", __dirname + "/views");
 //Les Routes ou Le rend
 
 app.get('/', function(req, res) {
-    res.render('index', { test: 'Salut' });
+    res.render('form', { test: 'Salut' });
 });
 
 
