@@ -58,4 +58,5 @@ This project will use the [Airbnb javascript style guide](https://github.com/nmu
 # Contributors
 
 * [Samuel Guébo](https://github.com/samuelguebo) - Project Lead
-* [Add your details](http://your-github-profile) - Contributor
+* [Mukaram Ahipeau Salimonu](https://github.com/Ahipeau) - Contributor
+* [Botche Philippe](https://github.com/philbotche) - Contributor
