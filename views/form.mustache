@@ -10,61 +10,66 @@
 
      <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
+<div class="topnav" id="myTopnav">
+  <a href="./" class="active">Home</a>
+  <a href="https://www.mediawiki.org/wiki/Africa_Wikimedia_Developers_Project">About AWMD</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
     
 
-      <div class="container">
-      <div class="row">
-       <div class="col-">
-
-      <form action="#" method="post" class="form-horizontal" role="form">
+      <section class="container">
+            <form action="#"  class="form-horizontal" role="form" method="POST">
       <fieldset class="form-group">
       <legend>thenoun-uploader</legend>
 
-
-      <div class="form-group row">
-    <label for="fichier" class ="col-sm-2 col-form-label">Fichier</label>
-    <div class="col-sm-6">
-    <input type="file" class="custom-file-input" id=""  aria-describedby="fileHelp>
-    <small id="fileHelp" class="form-text text-muted">Veuillez Choisir le fichier ou les fichiers que vous souhaitez upload
-     </div>
+      <div class="form-group">
+    <label for="fichier"  >Fichier</label>
+    <div>
+    <input type="file" class="form-control" id="" >
+    </div>
      </div>
 
-    <div class="form-group row">
-    <label for="type" class ="col-sm-2 col-form-label" >Type</label>
-    <div class="col-sm-6">
+
+
+    <div class="form-group">
+    <label for="type"  >Type</label>
+    <div>
     <input type="text" class="form-control" id="" >
     </div>
      </div>
   
 
-        <div class="form-group">
-        <label for="id" class ="col-sm-2 col-form-label">Id</label>
-        <div class="col-sm-6">
+        <div class="form-group ">
+        <label for="id" >Id</label>
+        <div>
         <input type="text" class="form-control" name="" value="">
         </div>
         </div>
 
         <div class="form-group">
-        <label for="nomauteur" class ="col-sm-2 col-form-label" >Nom de l'auteur</label>
-        <div class="col-sm-6">
+        <label for="nomauteur" >Nom de l'auteur</label>
+        <div>
         <input type="text" class="form-control" name="" value="">
         </div>
         </div>
 
         <div class="form-group">
-        <label for="emailauteur" class ="col-sm-2 col-form-label" >Email de l'auteur</label>
-        <div class="col-sm-6">
+        <label for="emailauteur"  >Email de l'auteur</label>
+        <div>
         <input type="email" class="form-control" name="" value="">
         </div>
         </div>
 
         <div class="form-group">
-        <label for="urlauteur" class ="col-sm-2 col-form-label" >Url auteur</label>
-        <div class="col-sm-6">
+        <label for="urlauteur">Url auteur</label>
+        <div>
         <input type="url" class="form-control" name="" value="">
         </div>
         </div>
@@ -72,15 +77,19 @@
       
         <button type="submit" class="btn btn-primary">Envoyer</button>
 
-
-
     </fieldset>
     </form>
 
-      </div>
-      </div>
-  
-</div>
+
+    <footer class="container footer">
+		<hr class="featurette-divider">
+		<div class="container">
+			<br>
+			<p align="center">AWMD,Cote d'Ivoire © 2018 - <a href="https://github.com/samuelguebo/thenoun-uploader">Source code on Github</a></p>
+		</div>
+	</footer>
+
+     
     
 
  <!-- Optional JavaScript -->
