@@ -5,10 +5,14 @@ var app = express();
 // Register '.html' extension with The Mustache Express
 app.engine('mustache', mustacheExpress());
 
+
 //moteur de template mustache
 
 app.set("view engine", "mustache");
 app.set("views", __dirname + "/views");
+
+// Middleware to handle static file such as css
+app.use(express.static(__dirname + '/public'));
 
 //Les Routes ou Le rend
 
